@@ -120,6 +120,8 @@ public class CustomFloatingActionButton extends FrameLayout {
     }
 
     private void initFab() {
+        removeAllViews();
+
         initFabBG();
         initShadowView();
         initFabView();
